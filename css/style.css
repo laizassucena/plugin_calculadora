@@ -1,0 +1,97 @@
+*{
+    font-family: arial;
+}
+
+iframe {
+    background-color: transparent;
+}
+
+.calculadora {
+    position: relative;
+    margin: 20px auto; /*o valor para cima e automatico para o resto*/ 
+    width: 70%;
+    height: auto;
+    padding: 30px;
+    background: linear-gradient(to right, rgba(17,17,17,1) 0%, rgba(17,17,17,1) 7%, rgba(76,76,76,1) 60%, rgba(19,19,19,1) 100%);
+    border: 10% solid white;
+    box-shadow: 0px 4px 5px 5px rgba(0,0,0,0.16);
+    border-radius: 20px;
+}
+.resultado-div {
+    position: relative;
+    width: 96,2%;
+    height: auto;
+    padding: 6px;
+    background-color: #A2AF77;
+    border-radius: 15px;
+}
+
+#resultado {
+    width: 100%;
+    height: 90px;
+    background-color: #A2AF77;
+    color: rgba(0,0,0,0.7);
+    border: none;
+    opacity: 0.5;
+    background-color: #1E90ff;    
+    color: #fff;
+    font-size: 230%;
+    text-align: right;
+}
+
+.btns {
+    margin-top: 25px;
+    width: 96%;
+    height: auto;
+    padding: 10px;
+}
+
+.btn{
+    margin-top: 2px;
+    padding: 5px 10px;
+    width: 18%;
+    height: 10%;
+    background-color: #58595B;
+    border-right: 2px solid #464748;
+    border-bottom: 2px solid #464748;
+    border-left: none;
+    border-top: none;
+    color: white;
+    font-size: 150%;
+    outline: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color:#464748;
+}
+
+.btn-c, .btn-ce {
+     width: 20%;
+}
+
+.btn-soma {
+    width: 15.8%;
+    height: 22.3%;
+    position:absolute;
+    background-color: #F15A2B;
+    border-right: 2px solid #d85126;
+    border-bottom: 2px solid #d85126;
+    border-left: none;
+    border-top: none;
+}
+
+.btn-soma:hover {
+    cursor: pointer;
+    background-color:#d85126;
+}
+
+.btn-zero{
+    width: 37.65%;
+    height: 15.8%;
+}
+
+.btn-igual {
+    width: 36;
+}
+
